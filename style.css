@@ -1,0 +1,375 @@
+*{margin: 0%
+ ;}
+
+*{
+    text-decoration: none;
+}
+
+main{
+    padding-top: 100px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand {
+    font-family: catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+header nav ul {
+    display: block;
+    margin: 0;
+    width: fit-content;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    padding: 0 16px;
+}
+
+header nav ul li  a{
+    font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header .header-link {
+    display: none;
+}
+
+
+@media only screen and (min-width:1000px){
+
+header .header-brand {
+    margin: 31px 0px;
+    padding: 0px 30px 0px 30px;
+    border-right: 3px solid #111;
+    line-height: 38px;
+    text-align: left;
+    float: left;
+}
+
+header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+}
+
+header nav ul li  a{
+    line-height: 60px;
+}
+
+header .header-link{
+    display: block;
+    font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid #111;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0px 20px;
+    float: right;
+
+
+}
+}
+
+/*index*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/profile.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+
+}
+
+.index-banner h2 {
+    font-family: Catamaran;
+    font-size: 50px; 
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;   
+}
+.index-banner h1 {
+    font-family: Cormorant Garamond;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: 70;
+    line-height: 40px;
+    text-shadow: 2px 2px 8px #111;   
+    font-style: italic;
+}
+
+
+.vertical-table{
+    display: table-cell;
+    vertical-align: middle;
+    }
+
+.my-box div{
+    margin: 16px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.my-box div h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    font-weight: 500;
+    line-height: 100px;
+    text-transform: uppercase;
+
+}
+
+@media only screen and (min-width:1000px){
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+
+    .index-banner {
+        width: 100%;
+        height: 500px;
+        background-image: url('images/profile.JPG');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
+    
+    }
+.my-box{
+    overflow: hidden;
+}
+    
+.index-banner h1 {
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.my-box div{
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.my-box-square{
+    width: calc(25% - 20px) !important;
+}
+.my-box-rectangle{
+    width: calc(50% - 20px) !important;
+}
+
+.my-box div h3 {
+    line-height: 230px;
+
+}
+/*cases*/
+
+.cases-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cases-links h2 {
+    font-family: catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.cases-links .cases-link {
+     float: left;
+     width: 230px;
+     height: 230px;
+     background-color: #e3e3e3;
+     margin: 20px 10px 0px;
+
+}
+.cases-links .cases-link p {
+    padding: 35%;
+    font-family: catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+}
+.contact{
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: grey;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+.container h1{
+    margin-bottom: 10px;
+    font-family: catamaran;
+}
+.container p{
+    margin-bottom: 40px;
+    font-family: catamaran;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 2px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28 0 181 0.3);
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+/*footer*/
+
+
+footer{
+    width: calc(100% - 80);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+    line-height: 35px;
+}
+
+footer ul li a{
+    font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+}
+.footer-cases{
+    display: none;
+}
+
+.footer-sm{
+    width: 40px;
+    float: right;
+}
+
+.footer-sm img{
+    width: 100%;
+    margin: 10px;
+
+}
+
+@media only screen and (min-width:1000px){
+
+.footer-cases{
+    display: block;
+}
+
+footer ul li p{
+    font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+footer ul{
+    padding-right: 30px;
+}
+}
+   
